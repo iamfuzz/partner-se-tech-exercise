@@ -30,6 +30,12 @@ docker compose up --build
 
 Then open <http://localhost:8000>.
 
+## ⚠️ Chainguard Libraries Access
+
+**Configuring Python dependency installation to use Chainguard Libraries is a required part of this exercise.**
+
+If you have not been provided with a Chainguard Libraries token and identity ID, **please request one before starting**. You will need these credentials to complete the Libraries portion of the exercise. Do not submit without attempting this step — if access cannot be arranged, document what you would have done and why.
+
 ## Candidate deliverables
 
 Candidates should submit:
@@ -52,4 +58,3 @@ A strong solution will usually:
 - avoid running as root
 - keep `docker compose up --build` working
 - clearly explain prioritization and tradeoffs
-
